@@ -2,6 +2,8 @@ import { Counter } from './components/Counter';
 import { Usuario } from './components/Usuario';
 import { TimerPadre } from './components/TimerPadre';
 import { ContadorRed } from './components/ContadorRed';
+// import { Formulario } from './components/Formulario';
+import { Formulario2 } from './components/Formulario2';
 
 function App() {
   return (
@@ -20,6 +22,11 @@ function App() {
       <hr />
       <h3>useReducer</h3>
       <ContadorRed />
+
+      <hr />
+      <h3>Custom Hooks</h3>
+      {/* <Formulario /> */}
+      <Formulario2 />
     </>
   );
 }
